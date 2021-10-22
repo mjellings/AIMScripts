@@ -220,7 +220,8 @@ async function grabSales() {
   
   
   
-  <script src="https://oce3d.com/aimscripts/addToTable.js?rndstr=`+Math.floor(Math.random() * 1000000000000)+`"></script>
+  <!--<script src="https://oce3d.com/aimscripts/addToTable.js?rndstr=`+Math.floor(Math.random() * 1000000000000)+`"></script>-->
+  <script src="https://raw.githubusercontent.com/mjellings/AIMScripts/main/addToTable.js?rndstr=`+Math.floor(Math.random() * 1000000000000)+`"></script>
   <script data-domain="oce3d.com" src="https://plausible.io/js/plausible.js"></script>
   <script>
   sales = JSON.parse(localStorage.getItem("sales"));
